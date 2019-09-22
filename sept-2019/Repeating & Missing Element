@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int a[n],b[n],i;
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+        b[i]=-1;
+    }
+    for(i=0;i<n;i++)
+    {
+        if(b[a[i]-1]==-1)
+        {
+            b[a[i]-1]=1;
+        }
+        else
+        {
+        printf("\nReapating Element:%d",a[i]);
+        printf("\nMissing Element:%d",i);
+        break;
+        }
+            
+    }
+    
+}
