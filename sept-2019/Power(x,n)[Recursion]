@@ -1,0 +1,15 @@
+#include<stdio.h>
+int power(int b,int p);
+int main()
+{
+    int x,n;
+    scanf("%d%d",&x,&n);
+    printf("%d",power(x,n));
+}
+int power(int b,int p)
+{
+    if(p==0)
+    return 1;
+    else
+    return b*power(b,p-1);
+}
