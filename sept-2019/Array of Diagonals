@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+    int i,j,n;
+    scanf("%d",&n);
+    int a[n][n],b[2][n];
+    for(i=0;i<n;i++)
+    for(j=0;j<n;j++)
+    scanf("%d",&a[i][j]);
+    for(i=0;i<n;i++)
+    {
+        b[0][i]=a[i][i];
+        b[1][i]=a[i][n-1-i];
+    }
+    printf("Array Of Diagonas");
+    for(i=0;i<n;i++)
+    {
+        printf("%d %d\n",b[0][i],b[1][i]);
+    }
+}
