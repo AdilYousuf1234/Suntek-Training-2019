@@ -4,7 +4,7 @@
 
 def solution(a,q,n):
 	ans=[]
-	print(n)
+	#print(n)
 	i=0
 	while(i<n):
 		j=q[i][0]
