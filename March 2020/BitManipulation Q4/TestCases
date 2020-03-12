@@ -1,0 +1,23 @@
+1.
+  Input:8
+  Output:3
+  
+2.
+  Input:10000
+  Output:16
+  
+3.
+  Input:15
+  Output:5
+  
+4.
+  Input:99999
+  Output:22
+  
+5.
+  Input:676
+  Output:12
+  
+6.
+  Input:7861768456
+  Output:44
