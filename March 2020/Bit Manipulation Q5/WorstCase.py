@@ -4,9 +4,9 @@
 #Output: [0,1,1]
 n=int(input())
 def Solution(n):
-	ans=[]
-	for i in range(n+1):
-		s=bin(i)[2:]
-		ans.append(s.count('1'))
+	ans=[]				#Array which contains the no of 1's in binary representation
+	for i in range(n+1):		#Iterate from 0 to n
+		s=bin(i)[2:]		#convert integer to binary representation
+		ans.append(s.count('1'))#count 1's and add to the array
 	return ans
 print(Solution(n))
