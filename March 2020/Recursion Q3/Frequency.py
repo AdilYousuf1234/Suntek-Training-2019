@@ -8,6 +8,7 @@ def Solution(a,k):
     if(a[0]==k):    #if first element is key increment count
        global count
        count+=1
+     a.pop(0)       #remove 1st element
     Solution(a,k)   #Use recursion to search the remaining elements
 count=0    
 l=list(map(int,input().split()))
