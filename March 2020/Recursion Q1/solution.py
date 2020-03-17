@@ -1,4 +1,5 @@
 #ans=[]
+#Given an integer N. Print all valid parenthesis
 def Solution(op,cp,s):      
     if(op==0 and cp==0):    #if open paranthesis and closed paranthesis are reduced then print s
         print(s)
